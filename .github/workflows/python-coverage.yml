@@ -31,7 +31,7 @@ jobs:
               run: pytest --cov=src
 
             - name: coverage comment
-              uses: py-cov-action/python-coverage-action@v3
+              uses: py-cov-action/python-coverage-comment-action@v3
               with:
                 GITHUB_TOKEN: ${{ github.token }}
                 MINIMUM_GREEN: 90
